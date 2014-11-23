@@ -53,6 +53,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libion.so
 
+# Needed for gfx drivers
+PRODUCT_PACKAGES += \
+    libcorkscrew
+
 # TI OMAP4
 PRODUCT_PACKAGES += \
     libdomx \
